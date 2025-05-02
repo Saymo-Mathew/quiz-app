@@ -1,0 +1,38 @@
+.question-box {
+    background: white;
+    color: #333;
+    padding: 25px;
+    border-radius: 16px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+    max-width: 600px;
+    margin: auto;
+  }
+  
+  .options {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+  }
+  
+  button {
+    background-color: #2a5298;
+    color: white;
+    padding: 12px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    transition: background 0.3s ease;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #1e3c72;
+  }
+
+  button.selected {
+    background-color: #0984e3;
+    color: white;
+  }
+  
+  

@@ -1,0 +1,29 @@
+.score-box {
+    background: white;
+    color: #333;
+    padding: 30px;
+    border-radius: 16px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+    max-width: 500px;
+    margin: auto;
+  }
+  
+  .score-box p {
+    font-size: 18px;
+    margin-top: 10px;
+  }
+  .retake-button {
+    background-color: #6c5ce7;
+    color: white;
+    padding: 10px 24px;
+    border: none;
+    border-radius: 8px;
+    margin-top: 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .retake-button:hover {
+    background-color: #4834d4;
+  }
+  
